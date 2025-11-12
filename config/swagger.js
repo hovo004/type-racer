@@ -206,7 +206,7 @@ const options = {
       },
     },
   },
-  apis: [join(__dirname, '../routes/**/*.js')], // Path to the API files
+  apis: [join(__dirname, '../docs/*.yaml')], // Path to the API files
 };
 
 export const swaggerSpec = swaggerJsdoc(options);
